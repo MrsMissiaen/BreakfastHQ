@@ -208,7 +208,7 @@ h3.title + p {
 
 /* All sections between Second and Final section */
 
-p > a {
+.linkBusiness {
   display: flex;
   justify-content: start;
   align-items: center;
