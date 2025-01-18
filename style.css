@@ -224,6 +224,12 @@ p > a {
   border: 1px solid;
 }
 
+p > a:hover {
+  background-color: #b8a054;
+  color: #4b5320;
+  transition: background-color 0.2s ease-in;
+}
+
 /* Final Section */
 
 section.final-section {
