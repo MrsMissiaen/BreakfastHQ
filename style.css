@@ -282,7 +282,7 @@ section.final-section a {
   }
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1000px) {
   section.text-and-grid-section > * {
     max-width: unset;
   }
