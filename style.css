@@ -287,11 +287,14 @@ section.final-section a {
     max-width: unset;
   }
   .cards-section {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 }
 
 @media (max-width: 858px) {
+  .fullscreen {
+    padding-top: 30px;
+  }
   .cards-container {
     flex-wrap: wrap;
   }
