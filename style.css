@@ -27,7 +27,7 @@ section {
 
 /* Fullscreen Section */
 .fullscreen {
-  height: 95vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,6 +286,9 @@ section.final-section a {
   section.text-and-grid-section > * {
     max-width: unset;
   }
+  .cards-section {
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 858px) {
@@ -301,6 +304,9 @@ section.final-section a {
 }
 
 @media (max-width: 700px) {
+  .fullscreen {
+    height: 50vh;
+  }
   section.final-section img {
     max-width: 70%;
   }
@@ -323,5 +329,11 @@ section.final-section a {
 
   section.final-section a svg {
     max-width: 40px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .fullscreen {
+    height: 40vh;
   }
 }
